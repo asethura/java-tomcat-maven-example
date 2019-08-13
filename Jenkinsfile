@@ -22,7 +22,7 @@ pipeline {
         stage ('Deploy Build in Staging Area'){
             steps{
 
-                build job : 'Scripted pipeline'
+                build job : 'Deploy-To-Staging'
             }
         }
 
